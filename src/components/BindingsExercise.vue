@@ -24,7 +24,7 @@
           <!-- add a v-model to this input that will reference "myName" within the state object-->
           <input />
           <!-- reference "myName" from the state -->
-          <p>{{}}</p>
+          <p>{{state.message}}</p>
         </div>
         <div class="border p-1">
           <h5>Class Binding</h5>
